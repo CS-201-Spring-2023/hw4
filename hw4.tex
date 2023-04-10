@@ -88,7 +88,7 @@ In the \pyth{InvertedIndex} class, you have to implement the following methods:
 
 In the \pyth{Trie} class, you have to implement the following methods:
 \begin{itemize}
-  \item \pyth{prefix_complete(self, prefix: str, node: TrieNode = None, word: str = '')-> List[Tuple[int,int,str]]}
+  \item \pyth{prefix_complete(self, prefix: str, node: TrieNode = None, word: str = '')-> Dict[str, List[Tuple[str, int, int]]]}
 \end{itemize}
 
 \textbf{You may implement any helper functions that you want but there names should begin with an underscore.}
